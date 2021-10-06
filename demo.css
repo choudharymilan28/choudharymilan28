@@ -1,0 +1,109 @@
+.row {
+    background: #f8f9fa;
+    margin-top: 20px;
+  }
+  
+  .col {
+    border: solid 1px #6c757d;
+    padding: 10px;
+  }
+  #card {
+      border: none;
+    
+      
+  }
+  #card-body {
+    width: 80%;
+     border: 1px solid rgba(0,0,0,.125);
+      border-radius: .25rem;
+      background: #fff;
+      position: absolute;
+      top: 800px;
+      left: 900px; 
+      /* margin-top:-50px; */
+      /* margin-left: 50px; */
+  }  
+  @media screen and (max-width:575px){
+    #card {
+      border: none;
+    
+      
+  }
+  #card-body {
+    width: 60%;
+     border: 1px solid rgba(0,0,0,.125);
+      border-radius: .25rem;
+      background: #fff;
+      position: absolute;
+      margin-left: 1px;
+margin-top: -500px;
+     /* margin-top:-50px; */
+      /* margin-left: 50px; */
+  }  
+
+
+
+  }
+
+
+
+ /* 
+  #badge{
+    position:relative;
+  }
+    
+  .card .card-badge {
+    position:absolute;
+    top:-25px;
+    right: 10px;
+    padding:5px;
+    background:red;
+    color:white;
+  
+    border-radius: 45px -45px 45px -45px; 
+
+  } */
+
+
+/* CSS for slider */
+/* .grid-slider-section{
+  padding: 50px,0;
+
+}
+        .grid-slide{
+          padding: 10px;
+          width: 18%;
+        }
+            .grid-slide-inner{
+              padding: 15px;
+              border: 2px solid #777;
+              text-align: center;
+              
+
+            }
+            .grid-slide-inner img{
+
+              width: 100%;
+            }
+
+            /* CSS for responsive slider */
+            /* @media screen and (max-width:991px){
+              .grid-slide{
+                width: 24%;
+              }
+              
+            }
+            
+            @media screen and (max-width:767px){
+              .grid-slide{
+                width: 30%;
+              }
+              
+            }
+
+            @media screen and (max-width:575px){
+              .grid-slide{
+                width: 48%;
+              }
+              
+            } */ */

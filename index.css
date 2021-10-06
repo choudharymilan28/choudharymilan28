@@ -1,0 +1,299 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Baskervville&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Baskervville&family=Roboto&display=swap');
+
+body{
+  font-family: 'Roboto', sans-serif;
+  /* font-family:'Baskervville',serif; */
+  margin-bottom: 0;
+}
+#nav{
+  font-family:'Baskervville', serif;
+
+  font-size: 14px;
+  text-align: center;
+  opacity: 1;
+  margin: 0;
+  padding: 0;
+  border: none;
+  
+
+}
+/* css for look image  */
+.carimg{
+  
+  
+  position:relative;
+  /* top:500px;
+  left:550px;
+   */
+}
+.lookimg{
+  position: absolute;
+  top: 150px;
+  left:800px;
+  z-index:0;
+  /* width: 50%; */
+  
+}
+@media screen and (max-width: 600px) {
+  
+    .lookimg{
+      position: absolute;
+      top: 25px;
+      left:150px;
+      z-index: 0;
+      width: 50%;
+      height: 50%; 
+    }
+  }
+  /* @media screen and (max-width:991px){
+    .lookimg{
+      position: absolute;
+      top: 175px;
+      left:50px;
+      z-index: 0;
+      width: 20%;
+      height: 20%; 
+
+  } */
+
+
+
+  /* css for image over relay */
+  /* .row {
+    background: #f8f9fa;
+    margin-top: 20px;
+  }
+  
+  .col {
+    border: solid 1px #6c757d;
+    padding: 10px;
+  } */
+  #card {
+    border: none;
+  
+    
+}
+#card-body {
+  width: 80%;
+   border: 1px solid rgba(0,0,0,.125);
+    border-radius: .25rem;
+    background:lightgray;
+    position: absolute;
+    top: 450px;
+    left: 900px; 
+    /* margin-top:-50px; */
+    /* margin-left: 50px; */
+}  
+    #tem-k{
+      font-family:'Montserrat', sans-serif;
+      font-size:18px;
+    }
+
+
+  @media screen and (max-width: 600px) {
+    body{
+      font-family: 'Baskervville', serif;
+      font-size: 13px;
+      
+    }
+    #diamond{
+      
+      size: 10px;
+    }
+    #CoolBrand{
+      height: 10px;
+    }
+    #card {
+      border: none;
+      font-family: 'Baskervville', serif;
+      /* height: 200px; */
+  }
+  #overelayimg{
+    width: 60%;
+  
+  
+  }
+  #card-body {
+      border-radius: .25rem;
+      width: 60%;
+      font-size: 8px;
+      position: absolute;
+      top: 60px;
+      left: 140px;
+    padding: 0;
+    margin: 0;  
+  
+  }
+ 
+    
+      /* margin-top:-50px; */
+      /* margin-left: 50px; */
+  }
+  #ship{
+    justify-self: auto;
+    margin: 20px;
+    margin: 20px;
+  }
+
+    
+  
+
+
+
+
+  /* CSS for badge  */
+
+  #badge{
+    position:relative;
+    
+  }
+    
+  .card .card-badge {
+    position:absolute;
+    top:-25px;
+    right: 10px;
+    padding:5px;
+    background:green;
+    color:white;
+    /* transform:rotate(-20deg); */
+    border-radius: 25px 0px 25px 0px;
+margin-top: 10px;
+  }
+
+
+  #newsletter{
+    position: relative;
+    top: -60px;
+    left: 0;
+  }
+  #newsltricon{
+    border:black;
+    background-color: grey;
+    border: green;
+    border-radius: 50px;
+  }
+
+
+
+  #icon {
+    background-color: white;
+    border-radius: 50%;
+    border: 1px solid grey;
+    padding: 10px;
+  }
+  #icon-p{
+top: -25px;
+
+border: gray;
+height: 100px;
+width: 100px;
+
+
+
+  }
+
+
+
+/* CSS for slider */
+.grid-slider-section{
+  padding: 50px,0;
+
+}
+        .grid-slide{
+          padding: 10px;
+          width: 18%;
+        }
+            .grid-slide-inner{
+              padding: 15px;
+              border: 0px solid rgb(133, 21, 21);
+              text-align: center;
+                            
+
+            }
+            .grid-slide-inner img{
+background-color:rgba(236, 240, 241, 1);
+              width: 100%;
+              padding: 20px
+            }
+
+            /* CSS for responsive slider */
+            @media screen and (max-width:991px){
+              .grid-slide{
+                width: 24%;
+              }
+              .grid-slide-inner1{
+                display: flex;
+                text-align: center;}
+
+              
+            }
+            
+            @media screen and (max-width:767px){
+              .grid-slide{
+                width: 30%;
+              }
+              .grid-slide-inner1{
+                display: flex;
+                text-align: center;}
+
+              
+            }
+
+            @media screen and (max-width:575px){
+              .grid-slide{
+                width: 40%;
+              }
+              .grid-slide-inner1{
+                display: flex;
+                text-align: center;}
+
+              
+            }
+
+            /* #ship */
+            @media screen and (max-width:991px){
+              #ship{
+                display: flex;
+                flex-direction: column;
+              }.grid-slide-inner1{
+                display: flex;
+                text-align: center;}
+
+            }
+            
+            @media screen and (max-width:767px){
+              #ship{
+                display: flex;
+                flex-direction: column;
+              }.grid-slide-inner1{
+                display: flex;
+                text-align: center;}
+
+              
+            }
+
+            @media screen and (max-width:575px){
+              #ship{
+                display: flex;
+                flex-direction: column;
+              
+              }
+              #icon-p{
+                justify-self: center;
+                padding: 5px;
+                margin: auto;
+                vertical-align: baseline;
+                
+                  }
+                
+              
+            }
+             #container
+            {
+              
+              background-color:transparent;
+              border:0;
+            }
