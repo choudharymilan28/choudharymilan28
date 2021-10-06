@@ -7,6 +7,7 @@ body{
   font-family: 'Roboto', sans-serif;
   /* font-family:'Baskervville',serif; */
   margin-bottom: 0;
+  
 }
 #nav{
   font-family:'Baskervville', serif;
@@ -190,11 +191,8 @@ top: -25px;
 border: gray;
 height: 100px;
 width: 100px;
-
-
-
+border-radius:100%;
   }
-
 
 
 /* CSS for slider */
